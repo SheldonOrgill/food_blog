@@ -1,0 +1,32 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "Chakalaka & pap",
+      "author": "Sheldon",
+      "images": "public/images/banner.jpg"
+    },
+    {
+      "id": 2,
+      "title": "Braai",
+      "author": "Patrick",
+      "images": "public/images/banner.jpg"
+    },
+    {
+      "id": 3,
+      "title": "Bunny chow",
+      "author": "Steve",
+      "images": "public/images/banner.jpg"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
