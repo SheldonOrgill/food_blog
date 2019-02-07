@@ -1,15 +1,62 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title><%= title %></title>
-    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet">
-    <link rel='stylesheet' href='/stylesheets/style.css' />
-  </head>
-  <body>
-    <% include partials/nav.ejs %>
-    <h1><%= title %></h1>
-    <p>Welcome to <%= title %></p>
-    
 
-  </body>
+<head>
+  <title>
+    <%= title %>
+  </title>
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet">
+  <link rel='stylesheet' type="text/css" media="screen" href='../stylesheets/style.css'>
+
+</head>
+
+<body>
+  <% include partials/nav.ejs %>
+
+  <div class="banner">
+    <img src="/images/banner.jpg" width="100%" alt="">
+    <p>If you set foot on South African soil, don't leave before you've enjoyed a traditional al fresco braai, as much
+      for the barbecued food as for the cultural experience. Follow it up with a popular melktert (custard-filled
+      pastry) and if you fancy a little snifter to finish then a sweet and creamy glass of Amarula (liqueur) will
+      definitely do the trick. </p>
+  </div>
+  <br>
+  <center>
+    <h1>KOS GANGSTER</h1>
+    <div class="main_food">
+      <div class="food1">
+        <img src="/images/food1.jpg" alt="">
+        <p class="food_info">Chakalaka and pap are mainstays on every South African dinner table. Chakalaka is a
+          vegetable dish made of onions, tomatoes, peppers, carrots, beans and spices, and is often served cold. Pap,
+          meaning 'porridge', is similar to American grits and is a starchy dish made from white corn maize. Chakalaka
+          and pap are often served together, along with braaied (barbecued) meat, breads, salad and stews.</p>
+      </div>
+      <br>
+      <div class="food2">
+        <img src="/images/food2.jpg" alt="">
+        <p class="food_info">This street food of Durban has become popular across South Africa and is now starting to
+          hit our food markets back in London. Hollowed out loaves of bread, stuffed with spicy curry were originally
+          created by the immigrant Indian community in the Natal area of Durban and served to workers for lunch. Try
+          chicken, pork or vegetarian varieties containing lentils and beans.</p>
+      </div>
+      <br>
+      <div class="food3">
+        <img src="/images/food3.jpg" alt="">
+        <p class="food_info">For a real taste of South Africa an authentic braai or shisa nyama ('burn the meat' in
+          Zulu) is an eating experience not to be missed. Braais originated in the townships of Johannesburg, with
+          butchers who set up barbecues in front of their shops at weekends to grill their meat and sell it on the
+          street. Nowadays, local communities gather at braais at the weekends to share food. Pop along to soak up the
+          vibrant atmosphere, listen to music and take your pick from the meat on offer, usually comprising of beef,
+          chicken, pork, lamb and vors (sausages) – this is not an outing for vegetarians!</p>
+      </div>
+    </div>
+  </center>
+  <div>
+    <% include partials/register.ejs %>
+  </div>
+  <div>
+    <% include partials/login.ejs %>
+  </div>
+</body>
+
 </html>

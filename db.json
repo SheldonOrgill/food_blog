@@ -4,24 +4,34 @@
       "id": 1,
       "title": "Chakalaka & pap",
       "author": "Sheldon",
-      "images": "public/images/banner.jpg"
+      "images": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/Chakalaka.jpg/330px-Chakalaka.jpg"
     },
     {
       "id": 2,
       "title": "Braai",
       "author": "Patrick",
-      "images": "public/images/banner.jpg"
+      "images": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Braai.JPG/330px-Braai.JPG"
     },
     {
       "id": 3,
       "title": "Bunny chow",
       "author": "Steve",
-      "images": "public/images/banner.jpg"
+      "images": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/70/Quarter_Mutton_Bunny_Chow.jpg/375px-Quarter_Mutton_Bunny_Chow.jpg"
     }
   ],
   "comments": [
     {
       "id": 1,
+      "body": "some comment",
+      "postId": 1
+    },
+    {
+      "id": 2,
+      "body": "some comment",
+      "postId": 1
+    },
+    {
+      "id": 3,
       "body": "some comment",
       "postId": 1
     }

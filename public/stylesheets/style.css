@@ -1,8 +1,30 @@
-body {
-  padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
-}
 
+body {
+  /* padding: 50px; */
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  background-color: black;
+  color:grey;
+}
+h1{
+color: antiquewhite
+}
+h2{
+color: antiquewhite;
+}
 a {
   color: #00B7FF;
+}
+
+.main_food{
+  align-content: center;
+}
+.food_info{
+  width:50%;
+}
+
+.banner{
+  width: 100%;
+}
+.form-container{
+  width: 30%;
 }

@@ -39,4 +39,8 @@ app.use(function(err, req, res, next) {
 });
 
 module.exports = app;
-app.listen(2020)
+app.listen(2020);
+
+app.get('/login', (req, res) => {
+  res.render('login');
+ });
