@@ -22,6 +22,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 app.use('/', indexRouter);
 app.use('/users', usersRouter);
 
+
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
   next(createError(404));
@@ -39,8 +40,4 @@ app.use(function(err, req, res, next) {
 });
 
 module.exports = app;
-app.listen(2020);
-
-app.get('/login', (req, res) => {
-  res.render('login');
- });
+app.listen(3000);
